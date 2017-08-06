@@ -1,0 +1,8 @@
+---
+applications:
+- name: dml-testweb
+  memory: 512M
+  host: dml-testweb
+  domain: mybluemix.net
+  services:
+  - Cloudant-lmsdb
